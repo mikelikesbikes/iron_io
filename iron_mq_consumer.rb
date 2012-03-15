@@ -1,6 +1,8 @@
 require 'iron_mq'
 require 'json'
 
+trap("INT") { exit }
+
 @token = '9uy03ZpIo96unFx7zR45_WY7QVU'
 @project_id = '4f6129c6a859d05c200011d2'
 
